@@ -1,0 +1,11 @@
+### Lấy danh sách học viên từ DB (Bài 1 Session 5)
+GET http://localhost:8080/api/students
+
+### Thêm mới học viên vào DB
+POST http://localhost:8080/api/students
+Content-Type: application/json
+
+{
+  "name": "Nguyen Ngoc Tra My",
+  "age": 25
+}
